@@ -3,22 +3,7 @@
 **Phoebe Corpus**<br>
 **Presented to Jean-Sébastien Marier**<br>
 
-# Exploratory Data Analwhat ysis (EDA) & Pitch
-
-## Foreword
-
-For this assignment, you must extract data from a dataset provided by the instructor. You must then clean and analyze the data, create exploratory charts/visualizations, and find a potential story idea. Your assignment must clearly detail your process. You are expected to write about 1500-2000 words, and to include several screen captures showing the different steps you went through. Your assignment must be written with the Markdown format and submitted on GitHub Classroom.
-
-I have been assigning different versions of this project to my digital journalism and data storytelling students for a few years now. Its structure was inspired by the main sections/chapters of [*The Data Journalism Handbook*](https://datajournalism.com/read/handbook/one/). This version was further inspired by the [Key Capabilities in Data Science](https://extendedlearning.ubc.ca/programs/key-capabilities-data-science) program offered by the University of British Columbia (UBC).
-
-**Here are some useful resources for this assignment:**
-
-* [GitHub's *Basic writing and formatting syntax* page](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-* [The template repository for this assignment in case you delete something by mistake](https://github.com/jsmarier/jou4100_jou4500_mpad2003_project2_template)
-
-Did you notice how to create a hyperlink? In Markdown, we put the clickable text between square brackets and the actual URL between parentheses.
-
-And to create an unordered list, we simply put a star (`*`) before each item.
+# How Ottawa Moves: An EDA of Urban, Suburban, and Rural Commuting Patterns
 
 ## 1. Introduction
 
@@ -36,23 +21,47 @@ For my exploratory analysis, I chose to focus on **commuting patterns**, as this
 
 ## 2. Getting Data
 
-Use two hashtag symbols (`##`) to create a level 2 heading like this one.
 
-To include a screen capture, use the sample code below. Your images should be saved in the same folder as your `.md` file.
+To start this assignment, I downloaded a CSV copy of the **2021 Long Form Census Ward Data** from the City of Ottawa’s Open Data Portal that was provided. I then imported the file into Google Sheets by going to **File, Import, and pasting the CSV link**.
 
-![](import-screen-capture.png)<br>
-*Figure 1: The "Import file" prompt on Google Sheets.*
+![](import-screen-capture.png)  
+*Figure 1: Importing the CSV file into Google Sheets.*
+After import, Google Sheets displayed the raw dataset containing 2,602 rows and 26 columns. Each row represents a demographic or social variable, while each column represents Ottawa as a whole plus each of the 24 wards.  I reviewed the dataset to confirm that all categories and ward values were correctly aligned.
 
-**Here are examples of functions and lines of code put in grey boxes:**
+![](import-screen-capture-raw.png)  
+*Figure 2: Raw dataset after import.*
 
-1. If you name a function, put it between "angled" quotation marks like this: `IMPORTHTML`.
-1. If you want to include the entire line of code, do the same thing, albeit with your entire code: `=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)`.
-1. Alternatively, you can put your code in an independent box using the template below:
+To make the file easier to navigate, I converted the sheet into a formatted table using Ctrl + A, Format, convert to table. This added basic formatting and filters, which helped when scrolling through long sections of the dataset. 
 
-``` r
-=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)
-```
-This also shows how to create an ordered list. Simply put `1.` before each item.
+![](import-screen-capture-table.png)  
+*Figure 3: Slightly formatted dataset.*
+
+Since my analysis focuses on commuting behaviour, I then located the section that lists different modes of transportation. The rows I highlighted include:
+
+- Car, truck, or van - as a driver  
+- Car, truck, or van - as a passenger  
+- Public transit  
+- Walked  
+- Bicycle  
+- Other method  
+
+![](import-screen-capture-transport.png)  
+*Figure 4: Highlighted transportation-related rows.*
+
+These rows will be used later to compare commuting patterns across three types of wards: **Somerset (urban), Barrhaven West (suburban), and West Carleton–March (rural).**
+
+## Specific Observations
+After reviewing the transportation section of the dataset, clear differences appeared between the three selected wards.<br>
+1. **Somerset (Urban – Ward 14)**
+This area's *low car usage* and high presence of walking and public transit demonstrate Somerset's comparison with other wards. It fits into its downtown location, dense housing, and closeness to worksites, stores, and transit stations.<br>
+2. **Barrhaven West (Suburban – Ward 3)**
+This area has *very high car commuters*, with driving being the predominant mode of transport. Walking, cycling, and numbers in transit are much lower. In line with the ward’s suburban design, longer distances and limited walkability.<br>
+3. **West Carleton–March (Rural – Ward 5)**
+This ward shows the *highest overall dependence on cars*, with very low walking, cycling or transit use. This makes sense given the rural setting, extensive geographic range, and few transit options
+
+## Hypothesis
+Considering the dataset format, I expect commuting behaviour to vary depending on whether a ward is **urban, suburban, or rural**. People living downtown (such as Somerset, Ward 14) will likely rely less on personal vehicles and use more public transit, walking, or cycling. On the other hand, suburban areas such as Barrhaven West (Ward 3) are predicted to see increased car commuting, with fewer people walking or using transit. Whereas rural wards such as West Carleton–March (Ward 5) will almost entirely depend on driving because of longer distances and limited public transit.
+
 
 ## 3. Understanding Data
 
