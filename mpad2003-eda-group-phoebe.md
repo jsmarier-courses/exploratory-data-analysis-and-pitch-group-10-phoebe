@@ -1,11 +1,9 @@
-**November 11, 2024**<br>
+**November 24, 2025**<br>
 **MPAD 2003A Introductory Storytelling**<br>
 **Phoebe Corpus**<br>
 **Presented to Jean-Sébastien Marier**<br>
 
-# Exploratory Data Analysis (EDA) & Pitch
-
-Use one hashtag symbol (`#`) to create a level 1 heading like this one.
+# Exploratory Data Analwhat ysis (EDA) & Pitch
 
 ## Foreword
 
@@ -24,7 +22,17 @@ And to create an unordered list, we simply put a star (`*`) before each item.
 
 ## 1. Introduction
 
-Insert text here.
+The dataset referred to is data from the **2021 Canadian Long-Form Census** which includes data grouped by the 24 municipal wards in the City of Ottawa. It possesses hundreds of demographic and social variables including, but not limited to, age groups, language, income, household attributes, commute information, and different commuting types. Previously, data was gathered from Statistics Canada, but it is publicly available through the City of Ottawa’s Open Data Portal. For this project, these are the main data used:
+
+**CSV link:**  
+https://raw.githubusercontent.com/jsmarier/files-for-course-assignments/refs/heads/main/2021_Long_Form_Census_-_Ward_Data.csv  
+
+**Original dataset:**  
+https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data
+
+
+For my exploratory analysis, I chose to focus on **commuting patterns**, as this part of the dataset clearly illustrates how people in various areas of Ottawa get to work. The census encompasses multiple modes of transport, including driving, public transit use, walking, cycling, or other methods. These choices vary among people based on location, which is why I want to compare commuting behavior in **downtown**, **suburban** and **rural** wards and find how neighbourhood design and distance affect people’s daily commute. The sections that follow present how I imported/processed the dataset, assessed its quality with a VIMO, generated a pivot table and exploratory chart, and crafted a potential story from the observations I presented.
+
 
 ## 2. Getting Data
 
