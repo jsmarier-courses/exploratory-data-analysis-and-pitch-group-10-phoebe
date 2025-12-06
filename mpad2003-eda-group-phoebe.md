@@ -68,8 +68,6 @@ Considering the dataset format, I expect commuting behaviour to vary depending o
 
 ### 3.1. VIMO Analysis
 
-
-
 Before comparing commuting patterns, I used the VIMO framework (Valid, Invalid, Missing, Outlier) to check whether the data was reliable. Since the dataset comes from the 2021 Canadian Long-Form Census, it is already considered high-quality, but it was still important to confirm its accuracy before analyzing it. According to Statistics Canada (2021), accuracy refers to how well data reflects real-world conditions, and checking for validity, missing values, and outliers is a key step in responsible data use.
 
 **Valid Data:**  
