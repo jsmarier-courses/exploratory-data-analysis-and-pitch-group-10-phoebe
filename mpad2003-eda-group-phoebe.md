@@ -70,13 +70,22 @@ Considering the dataset format, I expect commuting behaviour to vary depending o
 
 
 
-Insert text here.
+Before comparing commuting patterns, I used the VIMO framework (Valid, Invalid, Missing, Outlier) to check whether the data was reliable. Since the dataset comes from the 2021 Canadian Long-Form Census, it is already considered high-quality, but it was still important to confirm its accuracy before analyzing it. According to Statistics Canada (2021), accuracy refers to how well data reflects real-world conditions, and checking for validity, missing values, and outliers is a key step in responsible data use.
 
-Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
+**Valid Data:**  
+The commuting variables clearly measure what they are supposed to. Categories like “Car, truck or van – as a driver,” “Public transit,” “Walked,” and “Bicycle” come directly from census questions about how people usually travel to work. Statistics Canada (2021) explains that valid data must reflect real behaviour and fall within a realistic range. For example, Somerset’s higher walking and transit use matches what we would expect from a dense downtown ward, which supports the validity of the data.
 
-**For example:**
+**Invalid Data:**  
+Invalid data would include values that do not make sense, like mixing up driver and passenger categories. Statistics Canada (2021) warns that misuse of variables can lead to incorrect conclusions even if the dataset itself is accurate. To avoid this, I kept all categories separate and used the census definitions consistently.
 
-As Cairo (2016) argues, a data visualization should be truthful...
+**Missing Data:**  
+There were no empty cells in the commuting rows I used. Some values, especially for walking and cycling in rural wards, were very low, but these reflect real conditions rather than missing data. As Statistics Canada (2021) notes, low values should not automatically be treated as missing if they align with real-world patterns.
+
+**Outliers:**  
+Somerset stood out with much higher walking and transit use, while Barrhaven West and West Carleton–March showed very high car dependence. According to Statistics Canada (2021), outliers are not always errors and can reveal meaningful differences in population behaviour, which is exactly what happens here.
+
+Overall, the VIMO analysis confirms that the commuting data is accurate and reliable, making it appropriate for exploring how transportation behaviour differs across Ottawa’s urban, suburban, and rural wards.
+
 
 ### 3.2. Cleaning Data
 
@@ -181,6 +190,10 @@ https://www.grammarly.com
 
 Singh, A. (2025, January 23). Environmental transportation challenges in Ottawa. Ottawa Name.  
 https://ottawa.name/en/eternal-3780-environmental-transportation-challenges-in-ottawa
+
+Statistics Canada. (2021). Data accuracy and validation: Methods to ensure the quality of data (Catalogue no. 892000062020008).  
+https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008
+
 
 Trick, S. (2022, January 14). Ottawa’s colossal LRT debacle: A brief-ish history. TVO Today.  
 https://www.tvo.org/article/ottawas-colossal-lrt-debacle-a-brief-ish-history
