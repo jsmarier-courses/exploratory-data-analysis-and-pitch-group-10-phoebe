@@ -80,10 +80,8 @@ As Cairo (2016) argues, a data visualization should be truthful...
 
 ### 3.2. Cleaning Data
 
-To clean the dataset for my analysis, I began by applying Trim Whitespace to remove any hidden spaces in the “Characteristics” column. This kept the row labels consistent and prevented issues when filtering or organizing the data. I also used the Remove duplicates tool to ensure the dataset did not contain repeated rows.
-
-Next, I froze the header row so that the ward names remained visible while scrolling through the spreadsheet. Because the dataset is huge, freezing the header made it easier to compare values across Somerset, Barrhaven West, and West Carleton–March. I also applied alternating row colours, added cell borders, adjusted the font, and center-aligned the values to improve readability and keep the commuting section visually organized.
-
+To clean the dataset for my analysis, I began by applying Trim Whitespace to remove any hidden spaces in the “Characteristics” column. This kept the row labels consistent and prevented issues when filtering or organizing the data. I also used the Remove duplicates tool to ensure the dataset did not contain repeated rows.<br>
+Next, I froze the header row so that the ward names remained visible while scrolling through the spreadsheet. Because the dataset is huge, freezing the header made it easier to compare values across Somerset, Barrhaven West, and West Carleton–March. I also applied alternating row colours, added cell borders, adjusted the font, and center-aligned the values to improve readability and keep the commuting section visually organized. <br> 
 After that, I manually removed rows and columns that were not relevant to my project I excluded the overall “City of Ottawa” column because my analysis focuses on comparing three specific wards rather than citywide totals, and keeping the aggregate values would have made the comparisons less meaningful. I isolated and grouped the rows that contain transportation data:
 
 - Car, truck, or van - as a driver  
@@ -106,11 +104,11 @@ These cleaning steps ensured that the dataset was organized, consistent, and rea
 
 Once my dataset was fully cleaned and reorganized, I began exploring patterns in how residents from three different Ottawa wards commute to work. Instead of analyzing all 24 wards, I focused on three that clearly represent different community types in Ottawa:
 
-Somerset (Ward 14) -  urban
+- Somerset (Ward 14) -  urban
 
-Barrhaven West (Ward 3) -  suburban
+- Barrhaven West (Ward 3) -  suburban
 
-West Carleton-March (Ward 5) - rural
+- West Carleton-March (Ward 5) - rural
 
 This allowed me to see how neighbourhood design and geography might influence commuting behaviour. I first created a pivot table in Google Sheets using the cleaned commuting-related rows.
 
@@ -132,9 +130,9 @@ This pivot table made initial differences visible. Somerset had noticeably highe
 *Figure 3: Percentage distribution of commuting modes across urban, suburban, and rural wards*
 
 Raw totals alone can be misleading since each ward has a different population size. To compare commuting behaviours fairly, I created a **100% stacked bar chart**, which shows the proportion of each commuting mode within each ward.
-
+<br>
 Based on this exploratory analysis, I chose these three wards because they represent three distinct environments in Ottawa: **urban, suburban, and rural**. This made it easier to see how geography and neighbourhood design might influence commuting habits. The pivot table and percentage bar chart revealed several clear patterns. **Somerset (urban)** had the highest share of walking, biking, and public transit use, while **Barrhaven West (suburban)** remained mostly car-dependent with some transit and active transportation. **West Carleton-March (rural)** showed almost exclusive reliance on personal vehicles.
-
+<br>
 These findings suggest that the built environment plays a major role in shaping how people commute. A potential story could explore how commuting patterns differ across Ottawa’s communities and what this means for transportation planning and sustainability. For further investigation, it would be useful to examine variables such as median income, transit access, and vehicle ownership to better understand what drives these differences. 
 
 
@@ -155,13 +153,13 @@ Working through this assignment honestly taught me more about Ottawa’s transpo
 than I expected. The hardest part was probably organizing and cleaning such a huge dataset,
 especially making sure that the variables were consistent and meaningful before I started
 analyzing anything. But once the data was cleaned, the patterns became way easier to see, and
-that was actually the most rewarding part. It felt good when everything finally clicked.
+that was actually the most rewarding part. It felt good when everything finally clicked. <br>
 One thing I realized is how much neighbourhood design shapes people’s commuting habits.
 **Urban wards like Somerset** naturally support walking, biking, and transit, while **suburban and
 rural wards** almost force people into car ownership. Seeing that in the data made the story feel
 real. It also showed me where my own knowledge had gaps. For example, I didn’t know how
 much Ottawa’s transit issues (like the LRT derailments and reliability problems) influenced
-people’s decision-making until I started reading more research.
+people’s decision-making until I started reading more research. <br>
 If I could redo anything, I’d probably bring in additional demographic variables earlier, like
 income or household size, because they might explain even more of the differences between
 wards. Overall, this assignment helped me understand not just the numbers in the census, but
@@ -169,12 +167,17 @@ how data, geography, and infrastructure come together to shape everyday life in 
 
 ## 6. References
 
+ChatGPT. (2025). Used for drafting, editing, and citation formatting [AI model]. OpenAI.  
+https://www.openai.com/
 
 Desveaux, C. P. (2025). Ottawa’s transit crisis: Why a subway could save the city. LinkedIn.  
 https://www.linkedin.com/pulse/ottawas-transit-crisis-subway-could-save-city-clinton-p-desveaux-v5poc/
 
 Gower, G. (2024, July 7). Transportation trends in Ottawa (Part 3): Vehicle ownership. Straight Outta Stittsville.  
 https://glengower.substack.com/p/transportation-trends-in-ottawa-part-640
+
+Grammarly, Inc. (2025). Used for grammar and clarity support [Writing assistance software].  
+https://www.grammarly.com
 
 Singh, A. (2025, January 23). Environmental transportation challenges in Ottawa. Ottawa Name.  
 https://ottawa.name/en/eternal-3780-environmental-transportation-challenges-in-ottawa
@@ -185,8 +188,6 @@ https://www.tvo.org/article/ottawas-colossal-lrt-debacle-a-brief-ish-history
 White-Crummey, A. (2025, July 21). Alstom report blamed soft tracks, design flaws for LRT derailment. CBC News.  
 https://www.cbc.ca/news/canada/ottawa/ottawa-lrt-train-wheel-rail-problem-report-1.7588002
 
-ChatGPT. (2025). Used for drafting, editing, and citation formatting [AI model]. OpenAI.  
-https://www.openai.com/
 
-Grammarly, Inc. (2025). Used for grammar and clarity support [Writing assistance software].  
-https://www.grammarly.com
+
+
