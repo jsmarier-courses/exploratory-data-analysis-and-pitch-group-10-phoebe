@@ -101,7 +101,21 @@ Insert text here.
 
 ## 5. Conclusion
 
-Insert text here.
+Working through this assignment honestly taught me more about Ottawa’s transportation patterns
+than I expected. The hardest part was probably organizing and cleaning such a huge dataset,
+especially making sure that the variables were consistent and meaningful before I started
+analyzing anything. But once the data was cleaned, the patterns became way easier to see, and
+that was actually the most rewarding part. It felt good when everything finally clicked.
+One thing I realized is how much neighbourhood design shapes people’s commuting habits.
+Urban wards like Somerset naturally support walking, biking, and transit, while suburban and
+rural wards almost force people into car ownership. Seeing that in the data made the story feel
+real. It also showed me where my own knowledge had gaps. For example, I didn’t know how
+much Ottawa’s transit issues (like the LRT derailments and reliability problems) influenced
+people’s decision-making until I started reading more research.
+If I could redo anything, I’d probably bring in additional demographic variables earlier, like
+income or household size, because they might explain even more of the differences between
+wards. Overall, this assignment helped me understand not just the numbers in the census, but
+how data, geography, and infrastructure come together to shape everyday life in the city
 
 ## 6. References
 
