@@ -67,7 +67,7 @@ Considering the dataset format, I expect commuting behaviour to vary depending o
 
 ### 3.1. VIMO Analysis
 
-Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.
+
 
 Insert text here.
 
@@ -105,8 +105,24 @@ Insert text here.
 
 ## 6. References
 
-Include a list of your references here. Please follow [APA guidelines for references](https://apastyle.apa.org/style-grammar-guidelines/references). Hanging paragraphs aren't required though.
 
-**Here's an example:**
+Desveaux, C. P. (2025). Ottawa’s transit crisis: Why a subway could save the city. LinkedIn.  
+https://www.linkedin.com/pulse/ottawas-transit-crisis-subway-could-save-city-clinton-p-desveaux-v5poc/
 
-Bounegru, L., & Gray, J. (Eds.). (2021). *The Data Journalism Handbook 2: Towards A Critical Data Practice*. Amsterdam University Press. [https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153](https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153)
+Gower, G. (2024, July 7). Transportation trends in Ottawa (Part 3): Vehicle ownership. Straight Outta Stittsville.  
+https://glengower.substack.com/p/transportation-trends-in-ottawa-part-640
+
+Singh, A. (2025, January 23). Environmental transportation challenges in Ottawa. Ottawa Name.  
+https://ottawa.name/en/eternal-3780-environmental-transportation-challenges-in-ottawa
+
+Trick, S. (2022, January 14). Ottawa’s colossal LRT debacle: A brief-ish history. TVO Today.  
+https://www.tvo.org/article/ottawas-colossal-lrt-debacle-a-brief-ish-history
+
+White-Crummey, A. (2025, July 21). Alstom report blamed soft tracks, design flaws for LRT derailment. CBC News.  
+https://www.cbc.ca/news/canada/ottawa/ottawa-lrt-train-wheel-rail-problem-report-1.7588002
+
+ChatGPT. (2025). Used for drafting, editing, and citation formatting [AI model]. OpenAI.  
+https://www.openai.com/
+
+Grammarly, Inc. (2025). Used for grammar and clarity support [Writing assistance software].  
+https://www.grammarly.com
