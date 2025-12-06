@@ -87,12 +87,12 @@ Insert text here.
 
 **This section should include a screen capture of your pivot table, like so:**
 
-![](pivot-table-screen-capture.png)<br>
+![](pivot-table.png)<br>
 *Figure 2: This pivot table shows...*
 
 **This section should also include a screen capture of your exploratory chart, like so:**
 
-![](chart-screen-capture.png)<br>
+![](commuting-chart.png.png)<br>
 *Figure 3: This exploratory chart shows...*
 
 ## 4. Potential Story
