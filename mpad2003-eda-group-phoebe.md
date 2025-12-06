@@ -24,16 +24,16 @@ For my exploratory analysis, I chose to focus on **commuting patterns**, as this
 
 To start this assignment, I downloaded a CSV copy of the **2021 Long Form Census Ward Data** from the City of Ottawa’s Open Data Portal that was provided. I then imported the file into Google Sheets by going to **File, Import, and pasting the CSV link**.
 
-![](import-screen-capture.png)  
+![](import-screen-capture.png)<br>  
 *Figure 1: Importing the CSV file into Google Sheets.*
 After import, Google Sheets displayed the raw dataset containing 2,602 rows and 26 columns. Each row represents a demographic or social variable, while each column represents Ottawa as a whole plus each of the 24 wards.  I reviewed the dataset to confirm that all categories and ward values were correctly aligned.
 
-![](import-screen-capture-raw.png)  
+![](import-screen-capture-raw.png)<br>
 *Figure 2: Raw dataset after import.*
 
 To make the file easier to navigate, I converted the sheet into a formatted table using Ctrl + A, Format, convert to table. This added basic formatting and filters, which helped when scrolling through long sections of the dataset. 
 
-![](import-screen-capture-table.png)  
+![](import-screen-capture-table.png)<br>
 *Figure 3: Slightly formatted dataset.*
 
 Since my analysis focuses on commuting behaviour, I then located the section that lists different modes of transportation. The rows I highlighted include:
@@ -44,8 +44,9 @@ Since my analysis focuses on commuting behaviour, I then located the section tha
 - Walked  
 - Bicycle  
 - Other method  
+- Total – Main mode of commuting 
 
-![](import-screen-capture-transport.png)  
+![](import-screen-capture-transport.png)<br>  
 *Figure 4: Highlighted transportation-related rows.*
 
 These rows will be used later to compare commuting patterns across three types of wards: **Somerset (urban), Barrhaven West (suburban), and West Carleton–March (rural).**
@@ -79,7 +80,27 @@ As Cairo (2016) argues, a data visualization should be truthful...
 
 ### 3.2. Cleaning Data
 
-Insert text here.
+To clean the dataset for my analysis, I began by applying Trim Whitespace to remove any hidden spaces in the “Characteristics” column. This kept the row labels consistent and prevented issues when filtering or organizing the data. I also used the Remove duplicates tool to ensure the dataset did not contain repeated rows.
+
+Next, I froze the header row so that the ward names remained visible while scrolling through the spreadsheet. Because the dataset is huge, freezing the header made it easier to compare values across Somerset, Barrhaven West, and West Carleton–March. I also applied alternating row colours, added cell borders, adjusted the font, and center-aligned the values to improve readability and keep the commuting section visually organized.
+
+After that, I manually removed rows and columns that were not relevant to my project I excluded the overall “City of Ottawa” column because my analysis focuses on comparing three specific wards rather than citywide totals, and keeping the aggregate values would have made the comparisons less meaningful. I isolated and grouped the rows that contain transportation data:
+
+- Car, truck, or van - as a driver  
+- Car, truck, or van - as a passenger  
+- Public transit  
+- Walked  
+- Bicycle  
+- Other method 
+- Total – Main mode of commuting 
+
+![](clean-table.png)<br>
+*Figure 4: Cleaned Commuting Table.*
+
+I created a smaller working table with just these rows and the three wards I am analyzing: **Barrhaven West, West Carleton–March, and Somerset.** Organizing the data this way made it easier to work with in the next step of the assignment. 
+
+These cleaning steps ensured that the dataset was organized, consistent, and ready for the exploratory analysis in Section 3.3.
+
 
 ### 3.3. Exploratory Data Analysis (EDA)
 
