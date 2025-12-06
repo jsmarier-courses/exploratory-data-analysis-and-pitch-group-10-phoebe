@@ -104,17 +104,39 @@ These cleaning steps ensured that the dataset was organized, consistent, and rea
 
 ### 3.3. Exploratory Data Analysis (EDA)
 
-Insert text here.
+Once my dataset was fully cleaned and reorganized, I began exploring patterns in how residents from three different Ottawa wards commute to work. Instead of analyzing all 24 wards, I focused on three that clearly represent different community types in Ottawa:
 
-**This section should include a screen capture of your pivot table, like so:**
+Somerset (Ward 14) -  urban
+
+Barrhaven West (Ward 3) -  suburban
+
+West Carleton-March (Ward 5) - rural
+
+This allowed me to see how neighbourhood design and geography might influence commuting behaviour. I first created a pivot table in Google Sheets using the cleaned commuting-related rows.
+
+**Pivot table setup (Google Sheets)**
+
+**Rows:** Characteristics (Bicycle, Car, Public transit, Walked, etc.)
+**Columns:** Barrhaven West, West Carleton-March, Somerset
+**Values:** SUM of commuters in each category
+<br>This produced a side-by-side comparison of commuting modes across the three wards.
 
 ![](pivot-table.png)<br>
-*Figure 2: This pivot table shows...*
+*Figure 2: Pivot Table showing commuting modes across three Ottawa wards*
 
-**This section should also include a screen capture of your exploratory chart, like so:**
+This pivot table made initial differences visible. Somerset had noticeably higher counts for walking and cycling, while the suburban and rural wards showed far greater reliance on cars.
+
+**Percentage Bar Chart (Exploratory Visualization)**
 
 ![](commuting-chart.png.png)<br>
-*Figure 3: This exploratory chart shows...*
+*Figure 3: Percentage distribution of commuting modes across urban, suburban, and rural wards*
+
+Raw totals alone can be misleading since each ward has a different population size. To compare commuting behaviours fairly, I created a **100% stacked bar chart**, which shows the proportion of each commuting mode within each ward.
+
+Based on this exploratory analysis, I chose these three wards because they represent three distinct environments in Ottawa: **urban, suburban, and rural**. This made it easier to see how geography and neighbourhood design might influence commuting habits. The pivot table and percentage bar chart revealed several clear patterns. **Somerset (urban)** had the highest share of walking, biking, and public transit use, while **Barrhaven West (suburban)** remained mostly car-dependent with some transit and active transportation. **West Carleton-March (rural)** showed almost exclusive reliance on personal vehicles.
+
+These findings suggest that the built environment plays a major role in shaping how people commute. A potential story could explore how commuting patterns differ across Ottawa’s communities and what this means for transportation planning and sustainability. For further investigation, it would be useful to examine variables such as median income, transit access, and vehicle ownership to better understand what drives these differences. 
+
 
 ## 4. Potential Story
 
@@ -122,7 +144,7 @@ For the potential story, I’d want to go beyond just comparing commuting patter
 
 Some writers have already pointed out that the city’s infrastructure is struggling to keep up. For example, Singh (2025) highlights how Ottawa’s continued dependence on its private vehicles makes sustainable travel difficult, especially in winter. Desveaux (2024) takes an even stronger stance, arguing that the lack of a north–south subway is preventing the region from functioning efficiently and holding back economic growth. Meanwhile, Gower (2024) mentions that high car ownership rates, especially in suburban and rural areas, are simply the result of limited alternatives, which helps explain why places like Barrhaven and West Carleton remain so car-dependent.
 
-Transit reliability is another layer of the story. The LRT’s ongoing failures have damaged public trust; TVO’s timeline shows years of shutdowns, derailments, and safety issues that frustrated riders and delayed progress. More recently, a CBC investigation revealed that design flaws and “soft tracks” contributed to derailments (White-Crummey, 2025), adding even more context about why so many residents still hesitate to rely on transit.
+**Transit reliability is another layer of the story.** The LRT’s ongoing failures have damaged public trust; TVO’s timeline shows years of shutdowns, derailments, and safety issues that frustrated riders and delayed progress. More recently, a CBC investigation revealed that design flaws and “soft tracks” contributed to derailments (White-Crummey, 2025), adding even more context about why so many residents still hesitate to rely on transit.
 
 To fully tell this story, I would want to interview planners, councillors, and everyday commuters from the wards in my dataset. Bringing these perspectives together could show how neighbourhood design, car ownership, and transit failures all shape how people choose to get to work and what that means for Ottawa’s transportation future.
 
@@ -135,8 +157,8 @@ especially making sure that the variables were consistent and meaningful before 
 analyzing anything. But once the data was cleaned, the patterns became way easier to see, and
 that was actually the most rewarding part. It felt good when everything finally clicked.
 One thing I realized is how much neighbourhood design shapes people’s commuting habits.
-Urban wards like Somerset naturally support walking, biking, and transit, while suburban and
-rural wards almost force people into car ownership. Seeing that in the data made the story feel
+**Urban wards like Somerset** naturally support walking, biking, and transit, while **suburban and
+rural wards** almost force people into car ownership. Seeing that in the data made the story feel
 real. It also showed me where my own knowledge had gaps. For example, I didn’t know how
 much Ottawa’s transit issues (like the LRT derailments and reliability problems) influenced
 people’s decision-making until I started reading more research.
