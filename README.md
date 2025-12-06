@@ -1,7 +1,5 @@
-## Template for the Exploratory Data Analysis (EDA) & Pitch
+## Exploratory Data Analysis (EDA) – Ottawa Commuting Patterns
 
-Here are the files for the term project of courses JOU4100 Digital Journalism II and JOU4500 Journalisme numérique II at the University of Ottawa, and MPAD2003 Introductory Data Storytelling offered at Carleton University.
+This project analyzes commuting trends using data from the **2021 Canadian Long-Form Census Ward Data**, accessed through the City of Ottawa Open Data portal. Using Google Sheets, I cleaned the dataset by isolating transportation related variables and focused on three wards representing **urban, suburban, and rural areas: Somerset, Barrhaven West, and West Carleton–March**. I created a pivot table and a 100% stacked bar chart to compare commuting patterns across wards. The analysis revealed strong differences in transportation behaviour based on neighbourhood type, especially in car dependence versus active and public transit use.
 
-## Modèle pour le Analyse exploratoire de données (AED) et proposition
 
-Vous trouverez ici les fichiers pour le projet de session des cours JOU4100 Digital Journalism II et JOU4500 Journalisme numérique II à l'Université d'Ottawa, et du cours MPAD2003 Introductory Data Storytelling offert à l'Université Carleton.

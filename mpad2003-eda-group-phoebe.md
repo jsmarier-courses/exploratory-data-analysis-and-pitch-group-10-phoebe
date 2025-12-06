@@ -189,7 +189,6 @@ https://ottawa.name/en/eternal-3780-environmental-transportation-challenges-in-o
 Statistics Canada. (2021). Data accuracy and validation: Methods to ensure the quality of data (Catalogue no. 892000062020008).  
 https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008
 
-
 Trick, S. (2022, January 14). Ottawa’s colossal LRT debacle: A brief-ish history. TVO Today.  
 https://www.tvo.org/article/ottawas-colossal-lrt-debacle-a-brief-ish-history
 
